@@ -4,11 +4,11 @@
 
 Este proyecto tiene como objetivo el análisis y predicción de la probabilidad de fallecimiento de pacientes afectados por COVID-19, usando técnicas de aprendizaje automático aplicadas sobre un conjunto de datos reales de pacientes.
 
-Todo el flujo de trabajo ha sido integrado en el fichero `O1.ipynb`, que centraliza las tareas de limpieza de datos, entrenamiento de modelos, evaluación de rendimiento y validación de resultados con datos de prueba. El enfoque principal es la clasificación binaria: predecir si un paciente fallecerá o no en función de sus características médicas.
+Todo el flujo de trabajo ha sido integrado en el fichero `O1reducido.ipynb`, que centraliza las tareas de limpieza de datos, entrenamiento de modelos, evaluación de rendimiento y validación de resultados con datos de prueba. El enfoque principal es la clasificación binaria: predecir si un paciente fallecerá o no en función de sus características médicas.
 
 ---
 
-## 📁 Estructura del notebook (`O1.ipynb`)
+## 📁 Estructura del notebook (`O1reducido.ipynb`)
 
 ### 1. **Carga y limpieza de datos**
 
@@ -90,7 +90,7 @@ El uso de distintas métricas permite ajustar el modelo según distintos objetiv
 
 ## 📂 Archivos importantes
 
-* `O1.ipynb`: notebook principal con todas las etapas del proyecto integradas.
+* `O1reducido.ipynb`: notebook principal con todas las etapas del proyecto integradas.
 * `custom_covid19.csv`: conjunto de datos original de entrenamiento.
 * `proj-test-data.csv` y `proj-test-class.csv`: conjunto externo de validación.
 
@@ -100,6 +100,3 @@ El uso de distintas métricas permite ajustar el modelo según distintos objetiv
 
 Este proyecto demuestra cómo técnicas de clasificación como la regresión logística pueden utilizarse de forma eficiente para **predecir resultados clínicos relevantes**, siempre y cuando exista una **correcta preparación de datos** y se optimicen los modelos con una **evaluación adecuada de métricas**.
 
----
-
-¿Deseas que te lo pase también como archivo `.md` o `.txt` listo para descargar?
